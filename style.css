@@ -153,11 +153,11 @@ h1 {
 }
 
 .about-item {
-    background-color: rgba(0, 0, 0, 0.7); /* Fondo negro semitransparente */
+    background-color: rgba(0, 0, 0, 0.7); 
     border-radius: 10px;
     padding: 30px;
     max-width: 800px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Sombra suave */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
     text-align: left;
 }
 
@@ -178,7 +178,7 @@ h1 {
 }
 
 .about-item p:last-child {
-    margin-bottom: 0; /* Elimina el margen inferior del último párrafo */
+    margin-bottom: 0; 
 }
 
 
@@ -235,7 +235,7 @@ h1 {
 }
 
 .form input.button {
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50; 
     border: none;
     color: white;
     width: 71%;
@@ -258,6 +258,10 @@ input[type=number]::-webkit-inner-spin-button,
  	height: 150px;
  	color: black;
  }
+
+ html {
+    scroll-behavior: smooth; /* Suaviza el movimiento al desplazarse */
+}
 
 @media
   (-webkit-min-device-pixel-ratio: 2),
